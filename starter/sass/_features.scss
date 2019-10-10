@@ -5,6 +5,7 @@
     grid-template-columns: repeat(3,1fr);
     //grid-template-rows: auto auto; // - this way is implicit when commented
     grid-gap: 6rem;
+    align-items: start;
 }
 
 .feature {
