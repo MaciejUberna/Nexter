@@ -1,7 +1,6 @@
 .features {
-    background-color: $color-grey-light-2;
     grid-column: center-start / center-end;
-
+    padding: 6rem 0 6rem 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     //grid-template-rows: auto auto; // - this way is implicit when commented
