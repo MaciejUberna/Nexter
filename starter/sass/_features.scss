@@ -8,6 +8,10 @@
 }
 
 .feature {
+
+    display: grid;
+    grid-template-columns: min-content 1fr;
+
     &__icon {
         fill: $color-primary;
         width: 4.5rem;
