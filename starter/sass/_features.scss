@@ -11,11 +11,15 @@
 
     display: grid;
     grid-template-columns: min-content 1fr;
+    //properties like grid-column-gap and grid-row-gap are absolute and should not be used!
+    row-gap: 1.5rem;
+    column-gap: 2.5rem;
 
     &__icon {
         fill: $color-primary;
         width: 4.5rem;
         height: 4.5rem;
+        grid-row: 1 / span 2;
     }
 
     &__text {
