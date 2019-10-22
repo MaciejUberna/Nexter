@@ -10,17 +10,22 @@
 
 .home {
     background-color: $color-grey-light-1;
+    display: grid;
+    //we justify collumns and rows are calculated automatically
+
+    grid-template-columns: repeat(2, 1fr);
 
     &__img {
         width: 100%;
+        grid-column: 1 / -1;
     }
 
     &__like {
-
+        
     }
 
     &__name {
-
+        grid-column: 1 / -1;
     }
 
     &__location,
@@ -36,5 +41,9 @@
         p {
 
         }
+    }
+
+    &__btn {
+        grid-column: 1 / -1;
     }
 }
