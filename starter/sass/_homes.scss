@@ -78,6 +78,9 @@
             fill: $color-primary;
             height: 2rem;
             width: 2rem;
+
+            //for a gap in right hand side. In future there will be gaps for flexbox.
+            margin-right: 1rem;
         }
     }
 
