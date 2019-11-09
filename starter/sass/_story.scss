@@ -26,6 +26,8 @@
         @media only screen and (max-width: $bp_medium) {
             grid-column: 1 / 3;
             grid-row: 1 / -1;
+            height: 100%;
+            width: auto;
         }
 
     }
