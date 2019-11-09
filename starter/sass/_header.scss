@@ -13,6 +13,10 @@
     row-gap: 1.5rem;
     justify-content: center;
 
+    @media only screen and (max-width: $bp_medium) {
+        grid-column: 1 / -1;
+    }
+
     &__btn {
         align-self: start;
         justify-self: start;
