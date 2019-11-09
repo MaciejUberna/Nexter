@@ -11,6 +11,10 @@
     //grid-template-rows: min-content, min-content;
     row-gap: 2rem;
 
+    @media only screen and (max-width: $bp_medium) {
+        grid-column: 1 / -1;
+    }
+
     h3 {
         display: flex;
         align-self: flex-end;
@@ -24,7 +28,11 @@
         row-gap: 5vh;
         align-items: center;
 
-        color: $color-grey-light-1
+        color: $color-grey-light-1;
+
+        @media only screen and (max-width: $bp_medium) {
+            grid-template-columns: repeat(3, min-content max-content);
+        }
     }
 
     &__img {
