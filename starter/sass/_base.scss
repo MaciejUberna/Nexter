@@ -62,6 +62,6 @@ body {
 
     @media only screen and (max-width: $bp_medium) {
         //we need new row after the header, calc function because of 6rem menubar at the top
-        grid-template-rows: 6rem calc(100vh - 6rem) min-content min-content 40vw repeat(3, min-content);
+        grid-template-rows: 6rem calc(100vh - 6rem);
     }
 }
