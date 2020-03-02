@@ -12,7 +12,7 @@ Make CSS Grid project.
 ## Deployment
 
 In order to deploy this webpage, web server is needed. In this project live-server was used.
-Install node.js, type: npm install -g live-server and in Nexter folder run: "npm run devserver"
+Install node.js, type: "npm install -g live-server" and in Nexter folder run: "npm run devserver"
 
 ## How to contribute
 
