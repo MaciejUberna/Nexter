@@ -4,21 +4,19 @@
   "description": "Nexter fictional company's webpage that sells luxury homes.",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "devserver": "live-server --browser=firefox",
+    "devserver": "live-server --browser=chrome",
     "gulp": "gulp watchFiles",
-    "start": "npm-run-all --parallel devserver watch:sass",
     "startDev": "npm-run-all --parallel devserver gulp"
   },
   "author": "Jonas",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-live-server": "0.0.31",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-wait": "0.0.2",
-    "npm-run-all": "^4.1.1"
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5"
   }
 }
